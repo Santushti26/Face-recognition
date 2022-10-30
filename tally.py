@@ -6,6 +6,7 @@ import cv2
 cam = cv2.VideoCapture(0, cv2.CAP_DSHOW) 
 detector = cv2.CascadeClassifier(r"C:\Users\Santushti\OneDrive\Desktop\Sixth sense\haarcascade_frontalface_default.xml")
 # cascade classifier -> algorithm
+#face recog using django libraries
 Id = input("Enter your id: \n")
 
 sampleno = 0 
